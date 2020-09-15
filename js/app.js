@@ -11,6 +11,7 @@ document.querySelector('body').classList.toggle("body-expanded")
 }
 else
 {
+    btn.addEventListener('click', e =>{
     alert("se abre solo en dispositivos con resolucion mayor a 600px")
-
+    });
 }
