@@ -1,0 +1,33 @@
+nav{
+    width: 100%;
+    height: 171px;
+    background-color: rgb(52,52,52);
+    position: static;
+    bottom: 0;
+}
+.elemen a{
+    color: white;
+    text-decoration: none;
+    
+}
+.elemen{
+   list-style: none;
+    float: right;
+    width: 160px;
+    background-color: rgb(52,52,52);
+    
+}
+.elemen:hover, .elemen a:hover{
+    background-color: white;
+    color: rgb(30, 55, 110);
+}
+#titulo{
+    background-color: rgba(30, 55, 110, 0.507);
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+

@@ -1,0 +1,38 @@
+
+.cover{
+    width: 100%;
+    background-image: url(/imagen/slider1.jpg);
+    padding: 20px 0px;
+}
+.cover1{
+    width: 100%;
+    background-image: url(/imagen/slider2.jpg);
+    padding: 20px 0px;
+}
+.contenido{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    width: 700px;
+    margin: 100px 300px;
+    padding: 30px;
+    position: static;
+    border-radius: 1%;
+    box-shadow: 8px 8px rgba(128, 128, 128, 0.39);
+}
+.contenido h1{
+    font-weight: 20px;
+}
+
+.contenedor{
+    
+    margin: auto;
+    width: 680px;
+    height: 270px;
+    background-image: url(/imagen/slider3.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+
