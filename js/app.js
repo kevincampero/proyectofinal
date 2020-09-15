@@ -16,3 +16,5 @@ else
     alert("se abre solo en dispositivos con resolucion mayor a 600px")
     });
 }
+
+
