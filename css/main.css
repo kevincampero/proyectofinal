@@ -1,12 +1,12 @@
 
 .cover{
     width: 100%;
-    background-image: url(//imagen/slider1.jpg);
+    background-image: url(../imagen/slider1.jpg);
     padding: 20px 0px;
 }
 .cover1{
     width: 100%;
-    background-image: url(//imagen/slider2.jpg);
+    background-image: url(.//imagen/slider2.jpg);
     padding: 20px 0px;
 }
 .contenido{
