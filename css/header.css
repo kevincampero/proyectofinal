@@ -29,7 +29,7 @@ nav{
     font-size: 40px;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 600px)
 {
     .elemen div img{
         width: 50px;

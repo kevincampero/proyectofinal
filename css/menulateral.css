@@ -14,7 +14,7 @@ body{
     margin: 0;
     margin-left: var(--width-collapsed);
 }
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -178,12 +178,14 @@ html{
     width: 100px;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 600px)
 {
     .menu-expanded{
       width: 100%;
     }
     #sidemenu #menu-items .item{
-        width: 100%;
+        width: var(--width);
+        height: 46px;
+    
     } 
 }
