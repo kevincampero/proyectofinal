@@ -183,9 +183,5 @@ html{
     .menu-expanded{
       width: 100%;
     }
-    #sidemenu #menu-items .item{
-        width: var(--width);
-        height: 46px;
-    
-    } 
+  
 }
