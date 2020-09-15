@@ -33,7 +33,13 @@ nav{
 {
     .elemen div img{
         width: 50px;
-        
+    }
+    #titulo{
+        background-color: rgba(30, 55, 110, 0.507);
+        color: white;
+        height: 15px;
+        text-align: center;
+        font-size: 15px;
     }
 }
 
