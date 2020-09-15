@@ -1,7 +1,7 @@
 
 .cover{
     width: 100%;
-    background-color: red;
+    background-image: url(/imagen/slider1.jpg);
     padding: 20px 0px;
 }
 .cover1{
