@@ -31,9 +31,9 @@ nav{
 
 @media screen and (max-width: 1200px)
 {
-    .elemen{
-        width: 90px;
-        color: red
+    .elemen div img{
+        width: 50px;
+        
     }
 }
 
