@@ -182,5 +182,10 @@ html{
 {
     .menu-expanded{
       width: 100%;
+    }
+    #sidemenu #menu-items .item{
+        width: 100%;
+        height: 46px;
+    
     } 
 }
