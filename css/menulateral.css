@@ -100,7 +100,7 @@ html{
 }
 #sidemenu #menu-items .item{
     width: var(--width);
-    height: 46px;
+    height: 43px;
 
 }
 #sidemenu #menu-items .item .icon{
