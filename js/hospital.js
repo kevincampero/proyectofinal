@@ -7,7 +7,8 @@ if(screen.width>600)
 btn.addEventListener('click', e =>{
 menu.classList.toggle("menu-expanded");
 menu.classList.toggle("menu-collapsed");
-document.querySelector('body').classList.toggle("body-expanded")
+document.querySelector('body').classList.toggle("body-expanded");
+
 });
 }
 else
@@ -28,11 +29,13 @@ function mostrar(numapa)
     if(elementDisplay=='none')
     {
         document.getElementById(numapa).style.display="block";
-        document.getElementsByClassName("containero").style.flexDirection="column";
+        
+        
     }
     else
     {
-        document.getElementById(numapa).style.display="none"
+        document.getElementById(numapa).style.display="none";
+        
     }
 
 }
