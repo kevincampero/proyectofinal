@@ -14,9 +14,9 @@
 .contenido{
     background-color: rgb(52, 52, 52);
     color: white;
-    width: 700px;
-    margin: 100px 300px;
-    padding: 30px;
+    width: fit-content;
+    margin: 100px 150px;
+    padding: 20px;
     position: static;
     border-radius: 1%;
     box-shadow: 8px 8px rgba(128, 128, 128, 0.39);
@@ -24,6 +24,10 @@
 .contenido h1{
     font-weight: 20px;
 }
+.contenido:hover{
+    transform: translateY(-3%);
+}
+
 @media screen and (max-width: 800px)
 {
     .contenido{
