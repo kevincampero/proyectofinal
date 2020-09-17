@@ -77,4 +77,7 @@
    .containero{
        flex-direction: column;
    }
+   frame{
+       width: 150px;
+   }
 }
