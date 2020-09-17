@@ -44,12 +44,13 @@
 .card .contenidoc p{
     line-height: 1.5;
     color: #6a6a6a;
+    text-align: start;
 }
 .card .contenidoc h3{
     font-weight: 400;
     margin-bottom: 15px;
 }
-.btm, .bto{
+.btm{
     font-size: 20px;
     color: rgb(37, 81, 161) ;
     border: solid 2px rgb(37, 81, 161) ;
@@ -58,7 +59,7 @@
     border-radius: 0%;
 }
 
-.bt:hover{
+.btm:hover{
 
     
     color: white;
