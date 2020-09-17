@@ -30,6 +30,12 @@
         width: 200px;
         margin: 20px 40px;
     }
+    .cover{
+        height: auto;
+    }
+    .cover1{
+        height: auto;
+    }
 }
 
 
