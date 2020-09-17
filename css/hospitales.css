@@ -56,9 +56,13 @@
     border: solid 2px rgb(37, 81, 161) ;
     background-color: white;
     padding: 4px;
-    border-radius: 0%;
+    
 }
-
+.nombre{
+    width: 100%;
+    position: relative;
+    top:0;
+}
 .btm:hover{
 
     
