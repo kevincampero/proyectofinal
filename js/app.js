@@ -17,6 +17,24 @@ else
     });
 }
 
+$(document).ready(function(){
+
+    var height = $(window).height();
+
+    $('cover').height(height);
+});
+$(document).ready(function(){
+
+    var height = $(window).height();
+
+    $('cover1').height(height);
+});
+$(document).ready(function(){
+
+    var height = $(window).height();
+
+    $('header').height(height);
+});
 
 
 
