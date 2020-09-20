@@ -40,17 +40,21 @@
 {
     .mai{
         flex-direction: column;
-
+        justify-content: end;
     }
     .cajainfo {
 
-        width: 150px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
         background-color: transparent;
         color: black;
         margin-top: 50px;
         margin-left: 90px;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .cajainfo img{
+        width: 100px;
+
     }
 }
