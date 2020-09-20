@@ -1,0 +1,26 @@
+.mai{
+    display: flex;
+    background-color: white;
+    height: 680px;
+    justify-content: center;
+}
+.cajainfo {
+
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    color: black;
+    margin-top: 50px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 30px;
+}
+.raya{
+    border: solid 1px black;
+    width: 150px;
+    
+}
+.info{
+    font-size: 18px;
+    text-align: center;
+}
