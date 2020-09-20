@@ -4,6 +4,12 @@
     height: 680px;
     justify-content: center;
 }
+.mai2{
+    display: flex;
+    background-color: #9E0000;
+    height: 680px;
+    justify-content: center;
+}
 .cajainfo {
 
     width: 250px;
