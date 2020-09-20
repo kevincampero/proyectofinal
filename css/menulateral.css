@@ -181,7 +181,7 @@ html{
 }
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 600px)
 {
     #sidemenu #header #menu-btn {
         display: none;
