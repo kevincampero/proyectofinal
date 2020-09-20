@@ -45,8 +45,15 @@
 @media screen and (max-width: 800px)
 {
     .mai{
+        height: 1000px;
         flex-direction: column;
-        justify-content: end;
+        
+    }
+    .mai2{
+        height: auto;
+        flex-direction: column;
+        
+
     }
     .cajainfo {
 
