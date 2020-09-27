@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 400px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.linea{
+    background-color: rgb(92, 16, 16);
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+.galeria{
+    background-color: rgb(53, 53, 53);
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+}
+.galeria>a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    filter: grayscale(100%);
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.galeria a:hover{
+    filter: grayscale(0%);
+    transform: scale(1.04);
+}
+.lightbox{
+    position: fixed;
+    top: 0;
+    transition: transform .3s ease-in-out;
+    background: rgba(52, 52, 52, 0.719);
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.lightbox img{
+    width: 70vw;
+    max-height: 70vh;
+   
+}
+.lightbox:target{
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+}
+.next{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
