@@ -184,7 +184,6 @@ html{
 @media screen and (max-width: 600px)
 {
     #sidemenu #header #menu-btn {
-        display: none;
-        
+        display: none;  
     }
 }
