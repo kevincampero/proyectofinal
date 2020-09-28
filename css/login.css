@@ -126,7 +126,7 @@ a{
     font-size: 0.9rem;
     transition: .3s;
 }
-a:hover{
+.lo:hover{
     color: rgba(179, 12, 12, 0.76);
 }
 .btn{
@@ -143,10 +143,15 @@ a:hover{
     background-size: 200%;
     font-size: 15px;
     transition: .5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    padding-left: 150px;
+    padding-top: 15px;
 }
 .btn:hover{
     background-position: right;
 }
+
 /*responsive*/
 
 @media screen and (max-width:900px)
