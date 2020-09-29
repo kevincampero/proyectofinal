@@ -22,14 +22,18 @@ section{
 }
 #seccion2{
     background-image: url(../imagen/img2.jpg);
-    height: 690px;
+    height: fit-content;
 }
 
 #seccion3{
     background-image: url(../imagen/img1.jpg);
-    height: 690px;
+    height: fit-content;
 
    
+}
+#seccion4 h1{
+    font-size: 30px;
+    color: yellowgreen;
 }
 .diag #cov{
     margin-top: 50px;
@@ -37,7 +41,9 @@ section{
 }
 #seccion4{
     background-image: url(../imagen/img3.jpg);
-    height: 690px;
+    height: fit-content;
+    padding-top:40px;
+    padding-bottom: 0;
 }
 
 .h{
@@ -69,6 +75,40 @@ section{
  height: auto;
  margin-left: 20px;
  text-justify: distribute-all-lines;
+}
+.con0{
+    display: flex;
+    flex-direction: row;
+}
+.con0 .p{
+    padding: 20px;
+    background-color: rgba(17, 201, 201, 0.541);
+    color: white;
+}
+.con0 .p h1{
+    color: rgb(57, 105, 105);
+    font-size: 35px;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.con2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img2{
+    padding: 20px;
+    width: 28%;
+    margin: 0 60px;
+}
+.con div, .con2 div{
+    padding: 15px;
+    background-color: #3d2d3385;
+    color: white;
+    height: fit-content;
 }
 
 .into div{
