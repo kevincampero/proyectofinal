@@ -1,0 +1,84 @@
+html.body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+#seccion1{
+    background-image: url(../imagen/img0.jpg);
+    height: 690px;
+}
+#seccion2{
+    background-image: url(../imagen/img2.jpg);
+    height: 690px;
+}
+
+#seccion3{
+    background-image: url(../imagen/img1.jpg);
+    height: 690px;
+
+   
+}
+.diag #cov{
+    margin-top: 50px;
+    
+}
+#seccion4{
+    background-image: url(../imagen/img3.jpg);
+    height: 690px;
+}
+
+.h{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(42, 85, 165);
+}
+
+.tituloprincipal{
+    font-weight: 600;
+    color: 17b7ec;
+    margin-top: 80px;
+    background-color: rgb(255,255,255);
+    font-size: 40px;
+}
+
+.into{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    
+}
+.into .img{
+ width: 22%;
+ height: auto;
+ margin-left: 20px;
+ text-justify: distribute-all-lines;
+}
+
+.into div{
+    width: 20%;
+    padding: 5px;
+    border: solid 3.5px rgb(42, 85, 165);
+    background-color: rgba(255, 255, 255);
+    color: rgb(42, 85, 165);
+    margin-left: 20px;
+}
+.img h1{
+    color: rgb(42, 85, 165);
+}
