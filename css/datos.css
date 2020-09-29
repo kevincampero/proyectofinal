@@ -1,0 +1,36 @@
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+   background-color: rgba(255, 250, 205, 0.267);
+   height: 80vh;
+}
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+#seccion1{
+    background-image: url(../imagen/fondobol.jpg);
+    background-size: cover;
+    height:100vh;
+}
+#seccion2{
+    background-image: url(../imagen/fondococha.jpg);
+    background-size: cover;
+    height:100vh;
+}
+.con img{
+    height: 65vh;
+}
+@media screen and (max-width: 800px)
+{
+    .con{
+        flex-direction: column;
+        
+    }  
+    .con img{
+        height: 40vh;
+    }  
+}
