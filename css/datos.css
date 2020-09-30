@@ -1,3 +1,7 @@
+*{
+    font-family: 'Architects Daughter', cursiva;
+
+}
 .con{
     display: flex;
     align-items: center;

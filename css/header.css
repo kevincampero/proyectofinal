@@ -1,3 +1,7 @@
+*{
+    font-family: 'Architects Daughter', cursiva;
+
+}
 html{
     scroll-behavior: smooth;
 }

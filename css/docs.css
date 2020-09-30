@@ -4,6 +4,10 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     
+        font-family: 'Architects Daughter', cursiva;
+    
+    
+    
 }
 .content-all{
     display: flex;
