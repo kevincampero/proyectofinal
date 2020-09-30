@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+.content-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+section{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#seccion1{
+    background-image: url(../imagen/fondodoc.jpg);
+    height: 100vh;
+}
+#seccion2{
+    background-image: url(../imagen/img2.jpg);
+    height: 100vh;
+}
+
+#seccion3{
+    background-image: url(../imagen/img1.png);
+    height: 100vh;
+
+   
+}
+
+.docpdf{
+    
+    background-size: auto;
+    height: 50vh;
+    width: 25vw;
+    transition: all 300ms;
+    border-radius: 25%;
+    color: transparent;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+.content-all a{
+    text-decoration: none;
+}
+.docpdf:hover{
+    transition: all 300ms;
+    color: rgb(171, 183, 202);
+    cursor: pointer;
+    
+}
+.text{
+    margin-top: 35%;
+    background-color: transparent;
+}
+#uno{
+    background-image: url(../imagen/doc1.png);
+}
+#uno:hover{
+    background-image: url(../imagen/adobe.png);
+}
+#uno:hover .text{
+    background-color: rgba(27, 26, 26, 0.836);
+}
+#dos{
+    background-image: url(../imagen/doc2.png);
+}
+#dos:hover{
+    background-image: url(../imagen/adobe.png);
+}
+#dos:hover .text{
+    background-color: rgba(27, 26, 26, 0.836);
+}
+#tres{
+    background-image: url(../imagen/doc3.png);
+}
+#tres:hover{
+    background-image: url(../imagen/adobe.png);
+}
+#tres:hover .text{
+    background-color: rgba(27, 26, 26, 0.836);
+}
