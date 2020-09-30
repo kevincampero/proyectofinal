@@ -27,20 +27,8 @@ section{
     background-image: url(../imagen/fondodoc.jpg);
     height: 100vh;
 }
-#seccion2{
-    background-image: url(../imagen/img2.jpg);
-    height: 100vh;
-}
-
-#seccion3{
-    background-image: url(../imagen/img1.png);
-    height: 100vh;
-
-   
-}
-
 .docpdf{
-    
+    margin-top: 20%;
     background-size: auto;
     height: 50vh;
     width: 25vw;
@@ -91,4 +79,18 @@ section{
 }
 #tres:hover .text{
     background-color: rgba(27, 26, 26, 0.836);
+}
+@media screen and (max-width: 800px)
+{
+    
+    .docpdf{
+        width: 75vw;
+        background-size: cover;
+    }
+    .content-all{
+        flex-direction: column;
+    }
+    #seccion1{
+        height: fit-content;
+    }
 }
